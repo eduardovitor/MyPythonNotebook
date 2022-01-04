@@ -1,0 +1,7 @@
+elk
+fox
+lion
+owl
+seal
+toad
+whale
