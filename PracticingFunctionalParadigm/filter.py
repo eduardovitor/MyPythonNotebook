@@ -11,5 +11,5 @@ def iterateFilter(obj):
         return   
     
 numbers = (1,2,3,4,5,6,7,8,9,10) # a immutable tuple
-filtered_numbers = filter(par,numbers)
+filtered_numbers = filter(par,numbers) # filter as a high order function
 iterateFilter(filtered_numbers)
