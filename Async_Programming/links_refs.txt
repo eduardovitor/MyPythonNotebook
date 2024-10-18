@@ -1,0 +1,3 @@
+https://realpython.com/async-io-python/#a-full-program-asynchronous-requests
+https://docs.python.org/3/library/asyncio.html
+https://chatgpt.com/c/670d690f-615c-8012-93b0-d3e9c9e2b4c5

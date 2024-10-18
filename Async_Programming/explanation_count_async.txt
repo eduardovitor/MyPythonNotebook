@@ -1,0 +1,25 @@
+asyncio.gather(count(), count(), count())
+
+async def count():
+    print("One")
+    await asyncio.sleep(1) # Suspende a execução de count() por um segundo e roda outra coisa
+    print("Two")
+
+Coordenador de funções assíncronas
+
+1 - Chama count() (1 - primeiro parâmetro)
+2 - Imprime "One"
+3 - Execução suspensa (count - 1)
+4 - Chama count() (2 - segundo parâmetro)
+5 - Execução suspensa (count - 2)
+6 - Imprime "One"
+7 - Chama count() (3 - terceiro parâmetro)
+8 - Imprime "One"
+9 - Execução suspensa (count - 3)
+10 - 1 segundo se passou
+11 - Imprime "Two" (count - 1)
+12 - Imprime "Two" (count - 2)
+13 - Imprime "Two" (count - 3)
+
+No mesmo segundo, as três funções foram executadas.
+

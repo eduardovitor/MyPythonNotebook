@@ -1,0 +1,3 @@
+time.sleep() ou qualquer outra chamada de bloqueio é incompatível com código Python assíncrono, porque interromperá tudo durante o tempo de suspensão.
+
+O código demora três segundos para executar, porque não há preempção
